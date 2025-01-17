@@ -1,1 +1,89 @@
-<p>users works!</p>
+<div class="navbar">
+    <div class="logo">Digital Waiter</div>
+    <input type="text" placeholder="Buscar..." class="search-bar" />
+    <div class="icons">
+        <span class="bell-icon">🔔</span>
+        <div class="user-info">
+            <span class="user-icon">Usuario</span>
+            <div class="user-profile">
+                <img src="assets/images.png" alt="User Profile" />
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="admin-dashboard">
+    <div class="sidebar">
+        <div class="logo_digital">
+            <img src="assets/digitalwaiter.png" alt="User Profile" />
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/admin/dashboard">Dashboard</a></li>
+                <li><a href="/admin/users">Gestión de usuarios</a></li>
+                <li><a href="/admin/category">Gestión de menús</a></li>
+                <li><a href="/admin/products">Gestión de personal</a></li>
+                <li><a href="/admin/suppliers">Gestión de proveedores</a></li>
+                <li><a href="/admin/inventory">Control de inventario</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="main-content">
+        <div class="categories">
+            <h2>Categorías</h2>
+            <div class="category-cards">
+                <div class="category-card">
+                    <img src="assets/entrada.jpeg" alt="Entradas" />
+                    <p>Entradas</p>
+                </div>
+                <div class="category-card">
+                    <img src="assets/platos_fuertes.jpeg" alt="Platos Fuertes" />
+                    <p>Platos Fuertes</p>
+                </div>
+                <div class="category-card">
+                    <img src="assets/postres.jpeg" alt="Postres y Bebidas" />
+                    <p>Postres</p>
+                </div>
+                <div class="category-card">
+                    <img src="assets/bebidas.jpg" alt="Bebidas" />
+                    <p>Bebidas</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="reminders">
+            <h2>Recordatorios</h2>
+            <table class="reminder-table">
+                <thead>
+                    <tr>
+                        <th>Tarea</th>
+                        <th>Estado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Revisar los nuevos precios del menú del día</td>
+                        <td class="status pending">Pendiente</td>
+                    </tr>
+                    <tr>
+                        <td>Agregar el nuevo menú</td>
+                        <td class="status completed">Completado</td>
+                    </tr>
+                    <tr>
+                        <td>Registrar los nuevos bienes adquiridos</td>
+                        <td class="status pending">Pendiente</td>
+                    </tr>
+                    <tr>
+                        <td>Agregar el nuevo proveedor de vegetales</td>
+                        <td class="status completed">Completado</td>
+                    </tr>
+                    <tr>
+                        <td>Realizar pedido de nuevos suministros</td>
+                        <td class="status pending">Pendiente</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

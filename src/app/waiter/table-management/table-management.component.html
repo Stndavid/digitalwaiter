@@ -1,0 +1,17 @@
+<div>
+    <h2>Gestión de Mesas</h2>
+    <form (ngSubmit)="onSubmit()">
+      <label for="tableNumber">Número de Mesa:</label>
+      <input id="tableNumber" [(ngModel)]="tableNumber" name="tableNumber" />
+  
+      <label for="location">Ubicación:</label>
+      <input id="location" [(ngModel)]="location" name="location" />
+  
+      <label for="capacity">Capacidad:</label>
+      <input id="capacity" type="number" [(ngModel)]="capacity" name="capacity" />
+  
+      <button type="submit">Crear Mesa</button>
+    </form>
+    <p>{{ message }}</p>
+  </div>
+  
