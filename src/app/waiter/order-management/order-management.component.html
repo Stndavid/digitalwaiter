@@ -1,0 +1,14 @@
+<div>
+    <h2>Gestión de Órdenes</h2>
+    <form (ngSubmit)="onSubmit()">
+      <label for="order">Orden:</label>
+      <input id="order" [(ngModel)]="order" name="order" />
+  
+      <label for="tableNumber">Número de Mesa:</label>
+      <input id="tableNumber" [(ngModel)]="tableNumber" name="tableNumber" />
+  
+      <button type="submit">Crear Orden</button>
+    </form>
+    <p>{{ message }}</p>
+  </div>
+  
